@@ -1,0 +1,13 @@
+*~
+*.pyc
+.idea/*
+result/*
+results/*
+doc/_build/*
+teaching/.ipynb_checkpoints
+run*.py
+Input/*
+*.log
+*input.py
+scripts/combine_data.py
+/scripts/
