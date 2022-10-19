@@ -1,0 +1,96 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --log result\single-year-20221017T1627\scenario_north_process_caps.log --write
+ C:\Users\MOUADH~1\AppData\Local\Temp\tmplomjxv2x.glpk.raw --wglp C:\Users\MOUADH~1\AppData\Local\Temp\tmpi70ltt0o.glpk.glp
+ --cpxlp C:\Users\MOUADH~1\AppData\Local\Temp\tmpdiynd_hd.pyomo.lp
+Reading problem data from 'C:\Users\MOUADH~1\AppData\Local\Temp\tmpdiynd_hd.pyomo.lp'...
+100545 rows, 112754 columns, 382241 non-zeros
+796644 lines were read
+Writing problem data to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmpi70ltt0o.glpk.glp'...
+647841 lines were written
+GLPK Simplex Optimizer, v4.65
+100545 rows, 112754 columns, 382241 non-zeros
+Preprocessing...
+76467 rows, 92314 columns, 315056 non-zeros
+Scaling...
+ A: min|aij| =  1.300e-04  max|aij| =  2.433e+01  ratio =  1.871e+05
+GM: min|aij| =  2.225e-01  max|aij| =  4.495e+00  ratio =  2.020e+01
+EQ: min|aij| =  4.950e-02  max|aij| =  1.000e+00  ratio =  2.020e+01
+Constructing initial basis...
+Size of triangular part is 76464
+      0: obj =   7.173764490e+11 inf =   1.680e+06 (215)
+    567: obj =   7.316214938e+11 inf =   6.895e-11 (0) 4
+*  2074: obj =   4.672977327e+11 inf =   8.059e-12 (13261) 13
+*  3328: obj =   4.447511926e+11 inf =   1.165e-11 (15425) 11
+*  4356: obj =   3.966829118e+11 inf =   3.450e-10 (15842) 8
+*  5684: obj =   2.604156279e+11 inf =   1.961e-11 (15392) 12
+*  6819: obj =   2.149446818e+11 inf =   1.060e-10 (14705) 10
+*  7680: obj =   1.825600549e+11 inf =   3.491e-11 (15698) 7
+*  8723: obj =   1.541969277e+11 inf =   3.795e-11 (16849) 9
+*  9689: obj =   1.358830927e+11 inf =   1.399e-11 (15832) 8
+* 10695: obj =   1.221140502e+11 inf =   1.318e-11 (16885) 8
+* 11708: obj =   1.103186462e+11 inf =   1.784e-11 (17276) 8
+* 12639: obj =   9.625410760e+10 inf =   1.315e-11 (17931) 8
+* 13557: obj =   8.095418989e+10 inf =   1.349e-11 (18244) 7
+* 14555: obj =   6.555982514e+10 inf =   2.799e-11 (17635) 8
+* 15390: obj =   6.079194241e+10 inf =   6.498e-11 (17729) 6
+* 16278: obj =   5.702634047e+10 inf =   1.248e-11 (18659) 8
+* 17222: obj =   5.391836352e+10 inf =   1.207e-11 (16277) 8
+* 17918: obj =   5.149573685e+10 inf =   1.948e-11 (17074) 6
+Perturbing LP to avoid stalling [18430]...
+* 18819: obj =   5.036956078e+10 inf =   1.705e-08 (19001) 5
+* 19580: obj =   4.829617611e+10 inf =   4.730e-08 (19131) 6
+* 20282: obj =   4.630647280e+10 inf =   1.198e-07 (18164) 6
+* 21070: obj =   4.530266563e+10 inf =   1.995e-07 (18306) 7
+* 21813: obj =   4.361209557e+10 inf =   3.572e-07 (18009) 6
+* 22493: obj =   4.218580323e+10 inf =   2.786e-07 (18237) 5
+* 23231: obj =   4.087172019e+10 inf =   3.649e-07 (18529) 6
+* 23964: obj =   3.988378604e+10 inf =   3.973e-07 (17001) 6
+* 24495: obj =   3.942651097e+10 inf =   4.159e-07 (18551) 4
+* 25261: obj =   3.825953434e+10 inf =   4.616e-07 (17569) 7
+* 25919: obj =   3.700740106e+10 inf =   5.690e-07 (16274) 5
+* 26587: obj =   3.627799783e+10 inf =   7.410e-07 (15774) 5
+* 27248: obj =   3.543948887e+10 inf =   9.430e-07 (15690) 5
+* 27805: obj =   3.482614200e+10 inf =   8.545e-07 (16439) 5
+* 28412: obj =   3.435423011e+10 inf =   1.382e-06 (16581) 4
+* 29095: obj =   3.384157366e+10 inf =   2.717e-06 (17370) 6
+* 29783: obj =   3.348997669e+10 inf =   2.863e-06 (16627) 5
+* 30467: obj =   3.307445478e+10 inf =   3.599e-06 (15489) 5
+* 31171: obj =   3.242221503e+10 inf =   4.162e-06 (16780) 6
+* 31796: obj =   3.185250729e+10 inf =   4.957e-06 (14825) 5
+* 32487: obj =   3.139735095e+10 inf =   5.049e-06 (13117) 6
+* 33218: obj =   3.103317412e+10 inf =   7.431e-06 (14996) 6
+* 33888: obj =   3.072955254e+10 inf =   7.119e-06 (14010) 5
+* 34583: obj =   3.049031115e+10 inf =   9.392e-06 (14712) 6
+* 35354: obj =   3.022343234e+10 inf =   8.611e-06 (12340) 6
+* 35992: obj =   2.993003933e+10 inf =   1.163e-05 (13281) 5
+* 36716: obj =   2.969971394e+10 inf =   1.519e-05 (13794) 6
+* 37465: obj =   2.951551565e+10 inf =   2.291e-05 (12519) 5
+* 38120: obj =   2.938964724e+10 inf =   2.584e-05 (14267) 6
+* 38852: obj =   2.925847497e+10 inf =   5.016e-05 (13674) 5
+* 39567: obj =   2.910281427e+10 inf =   5.400e-05 (13845) 6
+* 40260: obj =   2.890414379e+10 inf =   4.443e-05 (12761) 5
+* 40995: obj =   2.870654803e+10 inf =   7.508e-05 (14086) 6
+* 41716: obj =   2.848316658e+10 inf =   5.260e-05 (15565) 6
+* 42383: obj =   2.832230380e+10 inf =   4.898e-05 (13718) 5
+* 43074: obj =   2.822492604e+10 inf =   5.916e-05 (12674) 6
+* 43748: obj =   2.813732552e+10 inf =   5.365e-05 (12861) 6
+* 44398: obj =   2.798810014e+10 inf =   8.586e-05 (9092) 5
+* 45139: obj =   2.785209094e+10 inf =   7.965e-05 (12138) 6
+* 45816: obj =   2.778438326e+10 inf =   7.459e-05 (10565) 5
+* 46574: obj =   2.769934071e+10 inf =   6.760e-05 (12180) 6
+* 47324: obj =   2.758522215e+10 inf =   6.104e-05 (8790) 6
+* 48055: obj =   2.750495650e+10 inf =   7.525e-05 (7053) 5
+* 48818: obj =   2.745108474e+10 inf =   7.757e-05 (8865) 6
+* 49644: obj =   2.741810807e+10 inf =   6.776e-05 (7935) 7
+* 50423: obj =   2.736294025e+10 inf =   7.643e-05 (4723) 5
+* 51235: obj =   2.724981498e+10 inf =   8.876e-05 (3995) 6
+* 52124: obj =   2.717372531e+10 inf =   8.449e-05 (6357) 7
+* 52981: obj =   2.714612927e+10 inf =   8.468e-05 (1546) 5
+Removing LP perturbation [53822]...
+* 53822: obj =   2.714608009e+10 inf =   5.462e-11 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Time used:   337.0 secs
+Memory used: 135.0 Mb (141583939 bytes)
+Writing basic solution to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmplomjxv2x.glpk.raw'...
+213308 lines were written

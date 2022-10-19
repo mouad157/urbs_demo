@@ -1,0 +1,105 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --log result\single-year-20221017T1627\scenario_stock_prices.log --write
+ C:\Users\MOUADH~1\AppData\Local\Temp\tmp5apcdeir.glpk.raw --wglp C:\Users\MOUADH~1\AppData\Local\Temp\tmpjj4rbtk7.glpk.glp
+ --cpxlp C:\Users\MOUADH~1\AppData\Local\Temp\tmpwp0i08ru.pyomo.lp
+Reading problem data from 'C:\Users\MOUADH~1\AppData\Local\Temp\tmpwp0i08ru.pyomo.lp'...
+100545 rows, 112754 columns, 382241 non-zeros
+796644 lines were read
+Writing problem data to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmpjj4rbtk7.glpk.glp'...
+647841 lines were written
+GLPK Simplex Optimizer, v4.65
+100545 rows, 112754 columns, 382241 non-zeros
+Preprocessing...
+76467 rows, 92314 columns, 315056 non-zeros
+Scaling...
+ A: min|aij| =  1.300e-04  max|aij| =  2.433e+01  ratio =  1.871e+05
+GM: min|aij| =  2.225e-01  max|aij| =  4.495e+00  ratio =  2.020e+01
+EQ: min|aij| =  4.950e-02  max|aij| =  1.000e+00  ratio =  2.020e+01
+Constructing initial basis...
+Size of triangular part is 76464
+      0: obj =   1.034603662e+12 inf =   1.680e+06 (215)
+    567: obj =   1.052385955e+12 inf =   6.895e-11 (0) 4
+*  1854: obj =   6.780190187e+11 inf =   7.223e-12 (12538) 12
+*  2881: obj =   6.590005924e+11 inf =   8.373e-12 (16190) 9
+*  4001: obj =   6.334679687e+11 inf =   1.295e-11 (16575) 10
+*  4970: obj =   5.746863236e+11 inf =   1.612e-11 (17624) 8
+*  6021: obj =   2.928584222e+11 inf =   1.880e-11 (17378) 9
+*  7073: obj =   2.609718425e+11 inf =   1.507e-11 (16466) 9
+*  8036: obj =   2.400312630e+11 inf =   1.911e-11 (16658) 8
+*  8971: obj =   2.209430895e+11 inf =   1.974e-11 (17088) 8
+*  9855: obj =   2.063797923e+11 inf =   9.281e-12 (16786) 7
+* 10551: obj =   1.912156068e+11 inf =   6.559e-10 (16620) 5
+* 11494: obj =   1.558458013e+11 inf =   6.688e-11 (16613) 8
+* 12451: obj =   1.319684412e+11 inf =   1.739e-11 (17438) 8
+* 13364: obj =   1.167070865e+11 inf =   1.407e-11 (17221) 7
+* 14361: obj =   1.073751621e+11 inf =   1.296e-11 (18231) 9
+* 15202: obj =   9.957832844e+10 inf =   1.248e-11 (18459) 7
+* 16005: obj =   9.162196840e+10 inf =   1.923e-11 (17820) 6
+* 16931: obj =   8.257402262e+10 inf =   1.114e-11 (16692) 7
+Perturbing LP to avoid stalling [17831]...
+* 17887: obj =   7.565140168e+10 inf =   1.166e-11 (17635) 9
+* 18668: obj =   7.338005314e+10 inf =   1.029e-11 (18773) 7
+* 19415: obj =   6.008840704e+10 inf =   2.140e-08 (18164) 6
+* 20046: obj =   5.191662463e+10 inf =   4.032e-08 (19489) 6
+* 20626: obj =   4.768246988e+10 inf =   7.979e-08 (20121) 4
+* 21426: obj =   4.678587808e+10 inf =   8.230e-08 (20018) 6
+* 22049: obj =   4.570683633e+10 inf =   1.048e-07 (17932) 5
+* 22628: obj =   4.438077299e+10 inf =   1.678e-07 (17621) 4
+* 23350: obj =   4.304243021e+10 inf =   2.186e-07 (17658) 5
+* 24014: obj =   4.171793231e+10 inf =   3.465e-07 (17269) 6
+* 24652: obj =   4.071652514e+10 inf =   4.615e-07 (17016) 5
+* 25365: obj =   3.962804970e+10 inf =   1.929e-06 (17903) 5
+* 25957: obj =   3.822614082e+10 inf =   1.866e-06 (16782) 4
+* 26505: obj =   3.766710042e+10 inf =   1.899e-06 (17100) 5
+* 27128: obj =   3.709151743e+10 inf =   2.106e-06 (16898) 5
+* 27798: obj =   3.647044150e+10 inf =   2.559e-06 (16463) 5
+* 28475: obj =   3.593737815e+10 inf =   2.793e-06 (16758) 5
+* 29044: obj =   3.541053861e+10 inf =   2.737e-06 (15348) 5
+* 29573: obj =   3.504652868e+10 inf =   2.774e-06 (16268) 4
+* 30246: obj =   3.451192252e+10 inf =   3.693e-06 (16595) 5
+* 31006: obj =   3.404381931e+10 inf =   3.406e-06 (14524) 6
+* 31663: obj =   3.374503510e+10 inf =   6.002e-06 (17690) 5
+* 32296: obj =   3.330975679e+10 inf =   9.006e-06 (15826) 5
+* 32978: obj =   3.271012132e+10 inf =   6.621e-06 (14960) 5
+* 33544: obj =   3.243043846e+10 inf =   8.922e-06 (15343) 5
+Warning: basis matrix is ill-conditioned (cond = 8.91e+12)
+* 34191: obj =   3.214496911e+10 inf =   1.472e-05 (15727) 7
+* 34860: obj =   3.187067620e+10 inf =   9.463e-06 (13562) 5
+Warning: basis matrix is ill-conditioned (cond = 1.09e+14)
+* 35460: obj =   3.163663522e+10 inf =   2.584e-05 (14835) 6
+* 36080: obj =   3.133995813e+10 inf =   2.219e-05 (14417) 5
+* 36672: obj =   3.117010266e+10 inf =   2.198e-05 (16248) 5
+* 37151: obj =   3.098427497e+10 inf =   2.264e-05 (13498) 3
+* 37834: obj =   3.079169968e+10 inf =   2.212e-05 (14968) 6
+* 38426: obj =   3.057902289e+10 inf =   2.407e-05 (14568) 5
+* 39076: obj =   3.035650104e+10 inf =   2.138e-05 (14580) 5
+* 39835: obj =   3.013391655e+10 inf =   2.116e-05 (13662) 6
+* 40542: obj =   2.989952223e+10 inf =   2.614e-05 (16922) 6
+* 41250: obj =   2.966249239e+10 inf =   2.698e-05 (15571) 5
+* 42027: obj =   2.950310212e+10 inf =   1.463e-05 (15239) 7
+* 42723: obj =   2.928271392e+10 inf =   1.871e-05 (10198) 6
+* 43400: obj =   2.912656983e+10 inf =   1.905e-05 (13524) 5
+* 44123: obj =   2.901646151e+10 inf =   2.373e-05 (11416) 5
+* 44849: obj =   2.885206345e+10 inf =   2.573e-05 (15229) 7
+* 45551: obj =   2.871441559e+10 inf =   2.587e-05 (12927) 5
+* 46157: obj =   2.861018132e+10 inf =   3.816e-05 (14817) 5
+* 46714: obj =   2.853482824e+10 inf =   3.809e-05 (12720) 4
+* 47325: obj =   2.842599477e+10 inf =   6.719e-05 (11484) 5
+* 48041: obj =   2.827629042e+10 inf =   7.469e-05 (15259) 6
+* 48773: obj =   2.810773552e+10 inf =   7.918e-05 (13286) 5
+* 49410: obj =   2.790645007e+10 inf =   7.220e-05 (16103) 6
+* 50113: obj =   2.764376135e+10 inf =   8.923e-05 (12403) 5
+* 50764: obj =   2.747642744e+10 inf =   8.971e-05 (11588) 4
+* 51518: obj =   2.737262737e+10 inf =   8.985e-05 (5569) 6
+* 52261: obj =   2.729603883e+10 inf =   1.160e-04 (4768) 6
+* 52999: obj =   2.722349209e+10 inf =   1.138e-04 (10169) 4
+* 53775: obj =   2.718273480e+10 inf =   1.137e-04 (4121) 6
+* 54643: obj =   2.714074270e+10 inf =   1.125e-04 (1098) 5
+Removing LP perturbation [55203]...
+* 55203: obj =   2.714038989e+10 inf =   3.156e-09 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Time used:   370.5 secs
+Memory used: 135.0 Mb (141583939 bytes)
+Writing basic solution to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmp5apcdeir.glpk.raw'...
+213308 lines were written

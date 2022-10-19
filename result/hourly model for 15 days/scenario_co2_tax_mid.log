@@ -1,0 +1,135 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --log result\single-year-20221017T1627\scenario_co2_tax_mid.log --write C:\Users\MOUADH~1\AppData\Local\Temp\tmpdmdoh48x.glpk.raw
+ --wglp C:\Users\MOUADH~1\AppData\Local\Temp\tmpctxajq3h.glpk.glp --cpxlp
+ C:\Users\MOUADH~1\AppData\Local\Temp\tmprltpnsuz.pyomo.lp
+Reading problem data from 'C:\Users\MOUADH~1\AppData\Local\Temp\tmprltpnsuz.pyomo.lp'...
+100545 rows, 112754 columns, 383681 non-zeros
+798084 lines were read
+Writing problem data to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmpctxajq3h.glpk.glp'...
+649281 lines were written
+GLPK Simplex Optimizer, v4.65
+100545 rows, 112754 columns, 383681 non-zeros
+Preprocessing...
+76467 rows, 92314 columns, 315056 non-zeros
+Scaling...
+ A: min|aij| =  1.300e-04  max|aij| =  2.433e+01  ratio =  1.871e+05
+GM: min|aij| =  2.225e-01  max|aij| =  4.495e+00  ratio =  2.020e+01
+EQ: min|aij| =  4.950e-02  max|aij| =  1.000e+00  ratio =  2.020e+01
+Constructing initial basis...
+Size of triangular part is 76464
+      0: obj =   7.173764490e+11 inf =   1.680e+06 (215)
+    567: obj =   7.316214938e+11 inf =   6.895e-11 (0) 4
+*  1975: obj =   4.703194594e+11 inf =   7.228e-12 (13288) 13
+*  2985: obj =   4.563401607e+11 inf =   1.357e-11 (15359) 9
+*  3951: obj =   4.381655432e+11 inf =   2.223e-11 (17514) 8
+*  4869: obj =   4.081142710e+11 inf =   2.197e-11 (17535) 8
+*  5769: obj =   3.231981802e+11 inf =   4.424e-11 (16798) 8
+*  6778: obj =   2.808446388e+11 inf =   1.990e-11 (16437) 8
+*  7653: obj =   2.433025077e+11 inf =   1.908e-11 (16477) 7
+*  8592: obj =   2.266576127e+11 inf =   3.652e-11 (15796) 9
+*  9641: obj =   2.007766056e+11 inf =   2.615e-11 (16325) 8
+* 10562: obj =   1.779567141e+11 inf =   3.075e-11 (15763) 8
+* 11550: obj =   1.555018492e+11 inf =   2.474e-10 (17081) 8
+* 12540: obj =   1.402886835e+11 inf =   1.810e-11 (17473) 7
+* 13409: obj =   1.236755570e+11 inf =   1.221e-11 (16977) 7
+* 14284: obj =   1.088871000e+11 inf =   2.816e-11 (18589) 7
+* 15166: obj =   9.638602561e+10 inf =   2.651e-11 (18938) 7
+* 15974: obj =   8.662962729e+10 inf =   7.117e-11 (18641) 7
+* 16783: obj =   7.849067933e+10 inf =   6.209e-11 (18613) 6
+* 17578: obj =   7.094936881e+10 inf =   1.509e-11 (18583) 6
+Perturbing LP to avoid stalling [17995]...
+* 18403: obj =   6.270353270e+10 inf =   3.901e-08 (18076) 7
+* 19167: obj =   5.751856473e+10 inf =   8.201e-08 (18221) 6
+* 19873: obj =   5.366882936e+10 inf =   1.400e-07 (18333) 6
+* 20571: obj =   5.134861058e+10 inf =   2.298e-07 (18317) 5
+* 21260: obj =   4.891557944e+10 inf =   3.756e-07 (18304) 6
+* 21918: obj =   4.694134851e+10 inf =   4.234e-07 (18365) 5
+* 22609: obj =   4.549117131e+10 inf =   5.658e-07 (19040) 5
+* 23376: obj =   4.386739417e+10 inf =   8.040e-07 (17558) 6
+* 24032: obj =   4.286765141e+10 inf =   1.216e-06 (17699) 5
+* 24650: obj =   4.194802325e+10 inf =   1.206e-06 (17599) 5
+* 25236: obj =   4.110360477e+10 inf =   2.796e-06 (18517) 5
+* 25828: obj =   4.015066938e+10 inf =   2.936e-06 (16991) 5
+* 26459: obj =   3.946232501e+10 inf =   1.752e-06 (18465) 5
+* 27130: obj =   3.911852951e+10 inf =   4.086e-06 (17169) 4
+* 27589: obj =   3.876574596e+10 inf =   4.435e-06 (17515) 3
+* 28152: obj =   3.823202341e+10 inf =   4.159e-06 (16323) 5
+* 28823: obj =   3.745634768e+10 inf =   5.044e-06 (17969) 5
+* 29462: obj =   3.702492812e+10 inf =   4.927e-06 (18240) 5
+* 30065: obj =   3.658541844e+10 inf =   4.522e-06 (15649) 4
+* 30649: obj =   3.629772540e+10 inf =   4.445e-06 (14597) 5
+* 31304: obj =   3.591864093e+10 inf =   4.718e-06 (18445) 5
+* 31943: obj =   3.560425714e+10 inf =   5.013e-06 (16570) 5
+* 32523: obj =   3.532697906e+10 inf =   5.145e-06 (14443) 4
+* 33177: obj =   3.516801147e+10 inf =   5.276e-06 (15208) 6
+* 33778: obj =   3.496812033e+10 inf =   5.952e-06 (15173) 4
+* 34401: obj =   3.477400907e+10 inf =   9.322e-06 (16426) 5
+* 35041: obj =   3.459984369e+10 inf =   1.342e-05 (14411) 4
+* 35658: obj =   3.441548586e+10 inf =   1.572e-05 (14891) 5
+* 36356: obj =   3.428363191e+10 inf =   2.064e-05 (15430) 6
+* 37074: obj =   3.420810003e+10 inf =   1.648e-05 (14454) 7
+Warning: basis matrix is ill-conditioned (cond = 3.57e+13)
+* 37636: obj =   3.410166973e+10 inf =   1.780e-05 (15175) 5
+Warning: basis matrix is ill-conditioned (cond = 1.17e+13)
+* 38283: obj =   3.403777143e+10 inf =   1.780e-05 (12551) 5
+* 38929: obj =   3.394919111e+10 inf =   1.519e-05 (12400) 5
+Warning: basis matrix is ill-conditioned (cond = 7.47e+12)
+* 39501: obj =   3.388058787e+10 inf =   2.439e-05 (11763) 5
+* 40139: obj =   3.372888307e+10 inf =   2.199e-05 (13514) 6
+* 40816: obj =   3.365043523e+10 inf =   2.197e-05 (14562) 5
+* 41425: obj =   3.357363968e+10 inf =   2.060e-05 (16853) 5
+Warning: basis matrix is ill-conditioned (cond = 6.82e+13)
+* 42079: obj =   3.351746983e+10 inf =   1.605e-05 (17719) 6
+* 42737: obj =   3.342893527e+10 inf =   2.029e-05 (11879) 5
+* 43347: obj =   3.335129727e+10 inf =   2.131e-05 (11974) 5
+* 43960: obj =   3.326448753e+10 inf =   1.941e-05 (11732) 5
+* 44458: obj =   3.320099701e+10 inf =   2.318e-05 (11722) 3
+Warning: basis matrix is ill-conditioned (cond = 3.9e+13)
+* 45083: obj =   3.313273603e+10 inf =   1.960e-05 (12815) 6
+Warning: basis matrix is ill-conditioned (cond = 1.15e+14)
+Warning: basis matrix is ill-conditioned (cond = 9.68e+12)
+* 45757: obj =   3.302028423e+10 inf =   1.920e-05 (14052) 6
+Warning: basis matrix is ill-conditioned (cond = 5.1e+12)
+* 46353: obj =   3.292107425e+10 inf =   1.955e-05 (11714) 4
+* 46912: obj =   3.283714932e+10 inf =   1.933e-05 (15970) 4
+* 47478: obj =   3.275533656e+10 inf =   1.913e-05 (11399) 4
+* 47874: obj =   3.269732035e+10 inf =   2.091e-05 (12091) 3
+* 48338: obj =   3.264464548e+10 inf =   2.057e-05 (9985) 4
+* 48882: obj =   3.257482835e+10 inf =   2.064e-05 (9948) 4
+* 49470: obj =   3.251684088e+10 inf =   2.037e-05 (12598) 4
+Warning: basis matrix is ill-conditioned (cond = 8.89e+12)
+* 49952: obj =   3.245917449e+10 inf =   2.045e-05 (11257) 5
+* 50477: obj =   3.241318555e+10 inf =   2.089e-05 (12925) 4
+* 51029: obj =   3.232892118e+10 inf =   1.952e-05 (12393) 5
+* 51596: obj =   3.225945691e+10 inf =   2.000e-05 (10087) 4
+* 52129: obj =   3.215194151e+10 inf =   2.017e-05 (15615) 3
+Warning: basis matrix is ill-conditioned (cond = 7.94e+12)
+* 52735: obj =   3.207748714e+10 inf =   1.924e-05 (11631) 5
+Warning: basis matrix is ill-conditioned (cond = 6.68e+12)
+* 53351: obj =   3.189975961e+10 inf =   1.895e-05 (12867) 5
+Warning: basis matrix is ill-conditioned (cond = 5.65e+12)
+* 53899: obj =   3.181499727e+10 inf =   2.162e-05 (14567) 4
+* 54553: obj =   3.166640786e+10 inf =   2.090e-05 (8979) 5
+* 55275: obj =   3.155984848e+10 inf =   2.046e-05 (10762) 6
+* 55974: obj =   3.148065023e+10 inf =   2.023e-05 (10630) 4
+* 56571: obj =   3.139992634e+10 inf =   1.744e-05 (10147) 4
+* 57159: obj =   3.134760536e+10 inf =   1.698e-05 (10989) 5
+* 57854: obj =   3.128830466e+10 inf =   1.441e-05 (10593) 5
+* 58547: obj =   3.119831103e+10 inf =   1.459e-05 (9174) 5
+* 59248: obj =   3.111345327e+10 inf =   1.332e-05 (12239) 4
+* 59802: obj =   3.108687118e+10 inf =   1.284e-05 (9245) 5
+* 60447: obj =   3.097552557e+10 inf =   1.302e-05 (11068) 4
+* 61099: obj =   3.091626777e+10 inf =   1.316e-05 (11545) 5
+* 61807: obj =   3.085620096e+10 inf =   1.294e-05 (8642) 4
+* 62549: obj =   3.078200019e+10 inf =   1.334e-05 (6262) 6
+* 63287: obj =   3.075046629e+10 inf =   1.382e-05 (3303) 4
+* 63891: obj =   3.073621462e+10 inf =   1.396e-05 (5185) 4
+* 64525: obj =   3.055721352e+10 inf =   1.412e-05 (489) 4
+Removing LP perturbation [65204]...
+* 65204: obj =   3.051438222e+10 inf =   4.468e-11 (0) 5
+OPTIMAL LP SOLUTION FOUND
+Time used:   472.0 secs
+Memory used: 135.1 Mb (141696387 bytes)
+Writing basic solution to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmpdmdoh48x.glpk.raw'...
+213308 lines were written

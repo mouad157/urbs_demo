@@ -1,0 +1,69 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --log result\single-year-20221017T1627\scenario_no_dsm.log --write C:\Users\MOUADH~1\AppData\Local\Temp\tmp8mjf2f7w.glpk.raw
+ --wglp C:\Users\MOUADH~1\AppData\Local\Temp\tmporkp4s5p.glpk.glp --cpxlp
+ C:\Users\MOUADH~1\AppData\Local\Temp\tmp8b6sfxxi.pyomo.lp
+Reading problem data from 'C:\Users\MOUADH~1\AppData\Local\Temp\tmp8b6sfxxi.pyomo.lp'...
+95145 rows, 92940 columns, 301905 non-zeros
+680294 lines were read
+Writing problem data to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmporkp4s5p.glpk.glp'...
+537971 lines were written
+GLPK Simplex Optimizer, v4.65
+95145 rows, 92940 columns, 301905 non-zeros
+Preprocessing...
+74307 rows, 73938 columns, 242272 non-zeros
+Scaling...
+ A: min|aij| =  1.300e-04  max|aij| =  2.433e+01  ratio =  1.871e+05
+GM: min|aij| =  2.225e-01  max|aij| =  4.495e+00  ratio =  2.020e+01
+EQ: min|aij| =  4.950e-02  max|aij| =  1.000e+00  ratio =  2.020e+01
+Constructing initial basis...
+Size of triangular part is 74304
+      0: obj =   7.173764490e+11 inf =   1.680e+06 (215)
+    371: obj =   7.339857036e+11 inf =   5.183e-10 (0) 2
+*  1799: obj =   4.308396314e+11 inf =   4.013e-12 (8544) 13
+*  2994: obj =   2.497681719e+11 inf =   2.797e-13 (9060) 10
+*  4317: obj =   1.689659576e+11 inf =   2.242e-13 (9867) 11
+*  5366: obj =   1.416735536e+11 inf =   1.038e-12 (9035) 9
+*  6351: obj =   1.176950110e+11 inf =   3.839e-12 (9510) 9
+*  7375: obj =   9.280938667e+10 inf =   2.181e-12 (9841) 9
+*  8414: obj =   7.476221317e+10 inf =   0.000e+00 (9852) 9
+*  9277: obj =   6.374052354e+10 inf =   5.457e-12 (9430) 7
+Perturbing LP to avoid stalling [9344]...
+* 10090: obj =   5.523937928e+10 inf =   9.202e-10 (10071) 8
+* 10687: obj =   5.144442218e+10 inf =   9.202e-10 (9763) 5
+* 11371: obj =   4.717369409e+10 inf =   1.841e-09 (9972) 6
+* 12254: obj =   4.414049893e+10 inf =   1.863e-09 (9814) 7
+* 13003: obj =   4.215795428e+10 inf =   4.841e-09 (9663) 6
+* 13721: obj =   4.062508708e+10 inf =   9.552e-09 (8712) 7
+* 14535: obj =   3.932366741e+10 inf =   4.381e-08 (8983) 7
+* 15378: obj =   3.821651901e+10 inf =   7.367e-08 (8707) 7
+* 16111: obj =   3.735776292e+10 inf =   1.967e-07 (9328) 7
+* 16895: obj =   3.626448660e+10 inf =   5.966e-07 (9078) 7
+* 17612: obj =   3.449447212e+10 inf =   3.520e-07 (8889) 7
+* 18323: obj =   3.382216967e+10 inf =   1.526e-06 (8789) 6
+* 19021: obj =   3.310283588e+10 inf =   1.406e-06 (8776) 5
+* 19595: obj =   3.247556144e+10 inf =   1.428e-06 (9294) 5
+* 20272: obj =   3.178968122e+10 inf =   4.065e-06 (7842) 5
+* 21092: obj =   3.105041398e+10 inf =   9.857e-06 (7000) 7
+* 21818: obj =   3.042515176e+10 inf =   1.088e-05 (8887) 7
+* 22582: obj =   3.008323115e+10 inf =   8.182e-06 (7894) 6
+* 23420: obj =   2.982209718e+10 inf =   2.993e-05 (8260) 7
+* 24134: obj =   2.943014770e+10 inf =   3.275e-05 (7286) 6
+* 24974: obj =   2.894997836e+10 inf =   4.048e-05 (7554) 7
+* 25757: obj =   2.867914683e+10 inf =   5.350e-05 (6591) 7
+* 26499: obj =   2.844400951e+10 inf =   4.681e-05 (8554) 6
+* 27323: obj =   2.784305598e+10 inf =   6.612e-05 (7820) 7
+* 28238: obj =   2.764679138e+10 inf =   6.783e-05 (7565) 6
+* 29083: obj =   2.745998058e+10 inf =   6.864e-05 (8131) 6
+* 29913: obj =   2.713021977e+10 inf =   1.059e-04 (8222) 8
+* 30810: obj =   2.683178047e+10 inf =   2.759e-04 (5341) 6
+* 31622: obj =   2.661285209e+10 inf =   2.683e-04 (2339) 6
+* 32595: obj =   2.653048485e+10 inf =   2.527e-04 (3779) 6
+* 33565: obj =   2.646456651e+10 inf =   2.648e-04 (559) 6
+Removing LP perturbation [34011]...
+* 34011: obj =   2.646453343e+10 inf =   1.738e-09 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Time used:   199.2 secs
+Memory used: 115.8 Mb (121409619 bytes)
+Writing basic solution to 'C:\Users\MOUADH~1\AppData\Local\Temp\tmp8mjf2f7w.glpk.raw'...
+188094 lines were written
